@@ -1,0 +1,28 @@
+{
+    "name": "sscs/openssl",
+    "description": "Encapsulation Aliyun open search API",
+    "keywords": [
+        "aliyun",
+        "opensearch",
+        "aliyunopensearch",
+        "aliyunsearch"
+    ],
+    "license": "MIT",
+    "homepage": "https://help.aliyun.com/product/29102.html",
+    "authors": [
+        {
+            "name": "sscs",
+            "email": "2213531641@qq.com",
+            "homepage": "http://rockjun.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aliyun\\opensearch\\": "src/"
+        }
+    }
+}
